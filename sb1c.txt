@@ -46,10 +46,22 @@ x!modlog all true
 !load chatchart
 !rndstatus set "!help | !invite" "!help - For commands | !invite - For invite link" "!help" "!help - Commands"
 !repo add MalarneCogs https://github.com/Malarne/discord_cogs
-install pillow (pip)
-!cog install MalarneCogs Leveler
-!load Leveler
+**sudo apt-get install libmagickwand-dev libaa1-dev
+**pip3 install python-aalib pyfiglet numpy wand pillow
+**https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux
+**pip3 install git+https://github.com/Kareeeeem/jpglitch
+!repo add Fixator10-Cogs https://github.com/fixator10/Fixator10-Cogs V3
+!cog install Fixator10-Cogs leveler
+***https://github.com/fixator10/Fixator10-Cogs/wiki/Installing-Leveler
+!load leveler
 !cog install FluffyCogs act
 !load act
 !cog install FluffyCogs secureinv
 !load secureinv
+!cog install Trusty-cogs starboard
+!load starboard
+!cog install Trusty-cogs 
+!load serverstats
+!cog install Trusty-cogs notsobot
+!load notsobot
+
