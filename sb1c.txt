@@ -1,0 +1,55 @@
+!load admin
+!load alias
+!load audio
+!load bank
+!load cleanup
+!load customcom
+!load downloader
+!load economy
+!load filter
+!load general
+!load image
+!load mod
+x!load modlog
+!load permissions
+!load reports
+!load streams
+!load trivia
+!load warnings
+!modlogset modlog #mod-log
+!repo add Fixator10 https://github.com/fixator10/Fixator10-Cogs V3
+!cog install Fixator10 messageslog
+!load messageslog
+!messageslog channel #log
+!modlog delete toggle
+!repo add SinbadCogs https://github.com/mikeshardmind/SinbadCogs v3
+!cog install SinbadCogs rolemanagement
+!load rolemanagement
+!rolebind LFG 263115189380055041 451781088164053014 :ballot_box_with_check:
+!roleset cost 0 LFG
+!roleset viewreactions
+!roleset selfadd LFG true
+!roleset selfrem LFG true
+!repo add Trusty-cogs https://github.com/TrustyJAID/Trusty-cogs/ v3
+!cog install Trusty-cogs fun
+!load fun
+!cog install Trusty-cogs insult
+!load insult
+!cog install Trusty-cogs extendedmodlog
+!load extendedmodlog
+x!modlog all true
+!modlogset modlog #log
+!repo add aikaterna https://github.com/aikaterna/aikaterna-cogs
+!cog install aikaterna rndstatus
+!load rndstatus
+!cog install aikaterna chatchart
+!load chatchart
+!rndstatus set "!help | !invite" "!help - For commands | !invite - For invite link" "!help" "!help - Commands"
+!repo add MalarneCogs https://github.com/Malarne/discord_cogs
+install pillow (pip)
+!cog install MalarneCogs Leveler
+!load Leveler
+!cog install FluffyCogs act
+!load act
+!cog install FluffyCogs secureinv
+!load secureinv
